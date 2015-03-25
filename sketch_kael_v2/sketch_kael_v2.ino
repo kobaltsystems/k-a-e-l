@@ -78,7 +78,7 @@ break;
 }
 
 
-LightValue = analogRead(0); // reads voltage from light sensor
+LightValue = analogRead(1); // reads voltage from light sensor
 
 
 // call voids 
