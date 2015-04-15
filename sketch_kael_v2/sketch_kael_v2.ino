@@ -12,7 +12,7 @@ EthernetClient client;
 // Temperature sensor settings
 dht11 DHT11;
 #define DHT11PIN 2
-const int ONE_MINUTE = 30 * 1000;
+const int ONE_MINUTE = 15 * 1000;
 int status;
 int failedConnectionAttempCounter;
 #include <LiquidCrystal.h>
